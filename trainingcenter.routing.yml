@@ -1,7 +1,7 @@
 trainingcenter.content:
-  path: '/trainingcenter/{name}'
+  path: '/trainingcenter'
   defaults:
-	_controller: 'Drupal\trainingcenter\Controller\TrainingcenterController::content'
+	_controller: 'Drupal\Trainingcenter\Controller\TrainingcenterController::content'
 	_title: 'Hello world'
 	name: 'there'
   requirements:

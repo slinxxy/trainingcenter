@@ -4,7 +4,7 @@
  * @file
  * Contains \Drupal\hello\Controller\HelloController.
  */
-namespace Drupal\trainingcenter\Controller;
+namespace Drupal\Trainingcenter\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
