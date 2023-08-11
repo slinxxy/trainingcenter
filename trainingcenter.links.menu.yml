@@ -1,0 +1,6 @@
+trainingcenter.demo
+    title: 'trainingcenter'
+    description: 'trainingcenter page'
+    parent: main
+    menu_name: main
+    route_name: 'trainingcenter.content'

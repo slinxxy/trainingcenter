@@ -1,0 +1,8 @@
+trainingcenter.content:
+  path: '/trainingcenter/{name}'
+  defaults:
+	_controller: 'Drupal\trainingcenter\Controller\TrainingcenterController::content'
+	_title: 'Hello world'
+	name: 'there'
+  requirements:
+	_permission: 'access content'
