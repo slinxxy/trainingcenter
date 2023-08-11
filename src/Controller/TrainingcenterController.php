@@ -9,10 +9,10 @@ namespace Drupal\Trainingcenter\Controller;
 use Drupal\Core\Controller\ControllerBase;
 
 class TrainingcenterController extends ControllerBase {
-  public function content($name) {
+  public function content() {
     return array(
       '#type' => 'markup',
-      '#markup' => $this->t('Hello @name', array('@name' => $name)),
+      '#markup' => t('Hello, World!'),
     );
   }
 }
