@@ -1,5 +1,5 @@
 name: Trainingcenter
 type: module
-description: A silly sample module
+description: a silly sample module
 package: Custom
 core_version_requirement: ^9 || ^10
