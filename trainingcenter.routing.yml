@@ -3,6 +3,5 @@ trainingcenter.content:
   defaults:
 	_controller: 'Drupal\Trainingcenter\Controller\TrainingcenterController::content'
 	_title: 'Hello world'
-	name: 'there'
   requirements:
 	_permission: 'access content'
