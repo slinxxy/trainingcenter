@@ -6,22 +6,6 @@ trainingcenter.dashboard:
   requirements:
     _permission: 'access content'
 
-trainingcenter.settings_form:
-  path: '/admin/config/system/trainingcenter'
-  defaults:
-    _title: 'Trainingcenter settings'
-    _form: '\Drupal\trainingcenter\Form\SettingsForm'
-  requirements:
-    _permission: 'administer trainingcenter configuration'
-
-trainingcenter.upload_manual:
-  path: '/upload/manual'
-  defaults:
-    _form:  '\Drupal\trainingcenter\Form\SimpleForm1'
-    _title: 'Upload - manual'
-  requirements:
-    _permission: 'access content'
-
 trainingcenter.upload_file:
   path: '/upload/file'
   defaults:
