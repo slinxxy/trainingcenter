@@ -17,7 +17,7 @@ trainingcenter.settings_form:
 trainingcenter.upload_manual:
   path: '/upload/manual'
   defaults:
-    _form:  'Drupal\trainingcenter\Form\SimpleForm'
+    _form:  'Drupal\trainingcenter\Form\SimpleForm1'
     _title: 'Upload - manual'
   requirements:
     _permission: 'access content'
@@ -25,7 +25,7 @@ trainingcenter.upload_manual:
 trainingcenter.upload_file:
   path: '/upload/file'
   defaults:
-    _form:  'Drupal\trainingcenter\Form\SimpleForm'
+    _form:  'Drupal\trainingcenter\Form\SimpleForm2'
     _title: 'Upload - file'
   requirements:
     _permission: 'access content'
