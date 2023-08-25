@@ -13,3 +13,19 @@ trainingcenter.settings_form:
     _form: 'Drupal\trainingcenter\Form\SettingsForm'
   requirements:
     _permission: 'administer trainingcenter configuration'
+
+trainingcenter.upload_manual:
+  path: '/upload/manual'
+  defaults:
+    _form:  '\Drupal\form_api_example\Form\SimpleForm'
+    _title: 'Upload - manual'
+  requirements:
+    _permission: 'access content'
+
+trainingcenter.upload_file:
+  path: '/upload/file'
+  defaults:
+    _form:  '\Drupal\form_api_example\Form\SimpleForm'
+    _title: 'Upload - file'
+  requirements:
+    _permission: 'access content'
