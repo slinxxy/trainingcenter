@@ -13,7 +13,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * @see \Drupal\Core\Form\FormBase
  */
-class SimpleForm extends FormBase {
+class SimpleForm1 extends FormBase {
 
   /**
    * Build the simple form.
