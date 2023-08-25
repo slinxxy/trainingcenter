@@ -1,5 +1,1 @@
-trainingcenter.settings_form:
-  title: 'Trainingcenter'
-  description: 'Configure Trainingcenter.'
-  route_name: trainingcenter.settings_form
-  weight: 10
+
